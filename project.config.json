@@ -10,8 +10,8 @@
 	"cloudfunctionRoot": "cloudfunction/",
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "ur appid",
-	"projectname": "weather",
+	"appid": "wx53dd8a2fefcc7025",
+	"projectname": "%E6%9E%81%E7%AE%80%E5%B0%8F%E5%A4%A9%E6%B0%94",
 	"condition": {
 		"search": {
 			"current": -1,

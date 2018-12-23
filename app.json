@@ -8,8 +8,8 @@
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#40a7e7",
-    "navigationBarTitleText": "Quiet Weather",
+    "navigationBarBackgroundColor": "#0094FE",
+    "navigationBarTitleText": "极简小天气",
     "navigationBarTextStyle": "light"
   },
   "cloud": true

@@ -165,7 +165,7 @@ Page({
           title: '检测结果',
           content: '该设备支持NFC功能',
           showCancel: false,
-          confirmText: '朕知道了',
+          confirmText: '我知道了',
           confirmColor: '#40a7e7',
         })
       },
@@ -175,7 +175,7 @@ Page({
           title: '检测结果',
           content: '该设备不支持NFC功能',
           showCancel: false,
-          confirmText: '朕知道了',
+          confirmText: '我知道了',
           confirmColor: '#40a7e7',
         })
       },
@@ -230,7 +230,7 @@ Page({
       wx.showModal({
         title: '提示',
         content: '确认要初始化设置',
-        cancelText: '容朕想想',
+        cancelText: '让我想想',
         confirmColor: '#40a7e7',
         success: (res) => {
           if (res.confirm) {
@@ -253,7 +253,7 @@ Page({
       wx.showModal({
         title: '提示',
         content: '确认要删除',
-        cancelText: '容朕想想',
+        cancelText: '让我想想',
         confirmColor: '#40a7e7',
         success (res) {
           if (res.confirm) {

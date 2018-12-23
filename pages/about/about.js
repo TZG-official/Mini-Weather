@@ -1,23 +1,15 @@
 let utils = require('../../utils/utils')
 Page({
   data: {
-    projectAddress: 'https://github.com/myvin/quietweather',
-    github: 'https://github.com/myvin',
-    email: '851399101@qq.com',
-    qq: '851399101',
+    projectAddress: 'https://github.com/TheZihanGu/Mini-Weather',
+    github: 'https://github.com/TheZihanGu/',
+    email: 'i@zihangu.com',
+    qq: '1570168109',
     swiperHeight: 'auto',
     bannerImgList: [
       {
-        src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/quietweather/images/miniqrcode.jpg',
-        title: 'Quiet Weather',
-      },
-      {
-        src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/juejin/images/miniqrcode.jpg',
-        title: '掘金第三方版',
-      },
-      {
-        src: 'https://raw.githubusercontent.com/myvin/miniprogram/master/suijiyitu/images/suijiyitu.jpg',
-        title: '随机一图',
+        src: 'https://tzg-oss.oss-cn-beijing.aliyuncs.com/gh_33d2cc9484fe_1280.jpg',
+        title: '小天气',
       },
     ],
   },
