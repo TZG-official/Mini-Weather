@@ -1,0 +1,44 @@
+page {
+    font-family: "PingFangSC-Regular","PingFang-SC-Light","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-size: 24rpx;
+    color: #999;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f6f6f6;
+}
+
+input {
+    font-family: "PingFangSC-Regular","PingFang-SC-Light","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+
+.cube {
+    transform: translate3d(0,0,0);
+}
+
+.mt5 {
+    margin-top: 5rpx;
+}
+
+.mt10 {
+    margin-top: 10rpx;
+}
+
+.mt15 {
+    margin-top: 15rpx;
+}
+
+.mt16 {
+    margin-top: 16rpx;
+}
+
+.mt20 {
+    margin-top: 20rpx;
+}
+
+.mt30 {
+    margin-top: 30rpx;
+}
+
+.mt40 {
+    margin-top: 40rpx;
+}
