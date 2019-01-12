@@ -12,5 +12,10 @@
     "navigationBarTitleText": "极简小天气",
     "navigationBarTextStyle": "light"
   },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取天气信息"
+    }
+  },
   "cloud": true
 }

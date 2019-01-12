@@ -3,7 +3,7 @@ Page({
   data: {
     setting: {},
     show: false,
-    screenBrightness: '获取中',
+    screenBrightness: '获取中。。。',
     keepscreenon: false,
     SDKVersion: '',
     enableUpdate: true,
@@ -19,7 +19,7 @@ Page({
       } else {
         setting[switchparam] = false
         wx.showToast({
-          title: '基础库版本较低，无法使用该功能',
+          title: '基础库版本较低，请更新微信。',
           icon: 'none',
           duration: 2000,
         })

@@ -58,6 +58,10 @@ Page({
     setting: {},
     bcgImgList: [
       {
+        src: '/img/indigo.jpg',
+        topColor: '#3F51B5'
+      },
+      {
         src: '/img/fog-himalayas-landscape-38326.jpg',
         topColor: '#b8bab9'
       }
@@ -115,7 +119,7 @@ Page({
       })
     } else {
       wx.showToast({
-        title: '网络不给力，请稍后再试',
+        title: '网络不好，请过会儿再试。',
         icon: 'none',
       })
     }
@@ -426,7 +430,7 @@ Page({
   onShareAppMessage (res) {
     let shareInfo = this.data.shareInfo
     return {
-      title: shareInfo.title || 'Quiet Weather',
+      title: shareInfo.title || '极简小天气',
       path: shareInfo.path || '/pages/index/index',
       imageUrl: shareInfo.imageUrl,
     }
