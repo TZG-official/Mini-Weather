@@ -16,8 +16,8 @@ App({
     keepscreenon:false,
     systeminfo: {},
     isIPhoneX: false,
-    key: '000000000000000000000000',
-    weatherIconUrl: 'https://cdn.heweather.com/cond_icon/',
+    key: '63fab235661a4112aeecc33abd2ba02d',
+    weatherIconUrl: 'https://xtq.tzg6.com/icon/',
     requestUrl: {
       weather: 'https://free-api.heweather.com/s6/weather',
       hourly: 'https://free-api.heweather.com/s6/weather/hourly',

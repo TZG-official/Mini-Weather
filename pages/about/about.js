@@ -1,14 +1,13 @@
 let utils = require('../../utils/utils')
 Page({
   data: {
-    projectAddress: 'https://github.com/TheZihanGu/Mini-Weather',
+    projectAddress: 'https://github.com/TZG-official/Mini-Weather/',
     github: 'https://github.com/TheZihanGu/',
-    email: 'i@zihangu.com',
-    qq: '1570168109',
+    email: 'zihangu@tzg6.tech',
     swiperHeight: 'auto',
     bannerImgList: [
       {
-        src: 'https://tzg-oss.oss-cn-beijing.aliyuncs.com/gh_33d2cc9484fe_1280.jpg',
+        src: 'https://xtq.tzg6.com/basicprofile.png',
         title: '小天气',
       },
     ],

@@ -33,4 +33,5 @@
     </view>
   </view>
   <view class='empty' wx:if='{{!showItems}}'>暂无城市可以选择</view>
+  <button bindtap="gotoabout">关于极简小天气</button>
 </view>

@@ -71,6 +71,11 @@ Page({
     // 返回一个对象，直接用 wx:for 来遍历对象，index 为 key，item 为 value，item 是一个数组
     return obj
   },
+  gotoabout() {
+    wx.navigateTo({
+      url: '/pages/about/about',
+    })
+  },
   choose(e) {
     let name = e.currentTarget.dataset.name
     let pages = getCurrentPages()

@@ -2,12 +2,6 @@
   <heartbeat id='heartbeat' wx:if='{{showHeartbeat}}'></heartbeat>
   <view class='bcg' wx:if='{{!bcgImg}}' style='background: {{bcgColor}}'></view>
   <image class='bcg' wx:if='{{bcgImg}}' src='{{bcgImg}}' mode='aspectFill'></image>
-  <view class='search' wx:if='{{!setting.hiddenSearch && !bcgImgAreaShow}}' style='background:rgba(255, 255, 255, 0)'>
-    <view class='wrapper'>
-      <image src='/img/search.png'></image>
-      <input placeholder-class='placeholderClass' confirm-type='search' placeholder='请输入城市名，快速查询天气信息' maxlength='20' bindconfirm='commitSearch' value='{{searchText}}' disabled='{{!enableSearch}}'></input>
-    </view>
-  </view>
   <view class='chooseBcg' wx:if='{{bcgImgAreaShow}}'>
     <view class='top'>
       <view class='title'>更换背景</view>
@@ -51,7 +45,7 @@
           <view class='temperature i'>{{item.tmp_max}}~{{item.tmp_min}}℃</view>
           <view class='weather i'>
             <text>{{item.cond_txt_d}}</text>
-            <image mode='widthFix' src='{{weatherIconUrl}}{{item.cond_code_d}}.png'></image>
+            <image mode='widthFix' src='{{weatherIconUrl}}{{item.cond_code_d}}d.png'></image>
           </view>
           <view class='wind i'>{{item.wind_dir}}{{item.wind_sc}}级</view>
         </view>
@@ -78,7 +72,7 @@
                   <view>天气</view>
                   <view class='weather'>
                     <text>{{item.cond_txt}}</text>
-                    <image mode='widthFix' src='{{weatherIconUrl}}{{item.cond_code}}.png'></image>
+                    <image mode='widthFix' src='{{weatherIconUrl}}{{item.cond_code}}d.png'></image>
                   </view>
                 </view>
                 <view class='detail'>
@@ -138,8 +132,5 @@
   <view wx:if='{{openSettingButtonShow}}' class='openSettingButton'>
     <image src='/img/unlock.png'></image>
     <button open-type='openSetting'></button>
-  </view>
-  <!-- 悬浮菜单 -->
-  <view class='menus' wx:if='{{!bcgImgAreaShow}}'>
   </view>
 </view>
