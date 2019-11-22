@@ -2,20 +2,19 @@
   "pages": [
     "pages/index/index",
     "pages/about/about",
-    "pages/citychoose/citychoose",
-    "pages/setting/setting",
-    "pages/systeminfo/systeminfo"
+    "pages/citychoose/citychoose"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#0094FE",
     "navigationBarTitleText": "极简小天气",
-    "navigationBarTextStyle": "light"
+    "navigationBarTextStyle": "white"
   },
   "permission": {
     "scope.userLocation": {
       "desc": "你的位置信息将用于获取天气信息"
     }
   },
-  "cloud": true
+  "cloud": true,
+  "sitemapLocation": "sitemap.json"
 }

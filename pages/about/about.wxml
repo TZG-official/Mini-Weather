@@ -12,7 +12,7 @@
     </swiper>
     <!-- <ad unit-id="adunit-da632c715ebfb1a5"></ad> -->
     <view class='item'>
-      <view class='title'>此项目已开源</view>
+      <view class='title'>支持开源</view>
       <view class='i' catchtap='copy' data-title='项目地址' data-content='{{projectAddress}}'>
         <view class='icon'>
           <image src='/img/github.png'></image>
@@ -43,22 +43,6 @@
           <view>{{email}}</view>
         </view>
       </view>
-      <view class='i' catchtap='copy' data-title='QQ' data-content='{{qq}}'>
-        <view class='icon'>
-          <image src='/img/qq.png'></image>
-        </view>
-        <view class='text'>
-          <view>通过 QQ 反馈</view>
-          <view>{{qq}}</view>
-        </view>
-      </view>
-      <!-- <view class='i'>
-        <view class='icon'>
-          <image src='/img/wechat.png'></image>
-        </view>
-        <view class='text'>微信快速联系</view>
-        <button open-type="contact" class='btn'></button>
-      </view> -->
     </view>
     <view class='thanks item'>
       <view class='title'>数据来源</view>
